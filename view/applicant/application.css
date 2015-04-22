@@ -1,0 +1,221 @@
+/* By: Jake Pitkin on January 25, 2015 */
+/* The style sheet for the application form */
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%; 
+
+	background-image: url("../../images/grey_background.png");
+    background-color: #FFFFFF;
+
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+}
+
+/* Title */
+#header {
+	font-size: 36px;
+	color: #484848;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-left: 15px;	
+	margin-bottom: 0px;
+}
+
+/* Navigation bar */
+#nav {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	background-color: #383838;
+	margin: 0px;
+}
+
+/* TA Application */
+#application {
+	margin-top: 10px;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: white;
+	border: 2px solid;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 60px;
+
+}
+
+/* TA Application Report Back*/
+#report {
+	margin-top: 10px;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: white;
+	border: 2px solid;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Links for user nav */
+#nav_list li {
+	display: inline;
+	list-style: none;
+	text-align: center;
+	font-size: 24px;
+	color: #FF9999;
+}
+
+/* User Navigation */
+#nav_list a:link, #nav_list a:visited {
+	text-decoration: none;
+	color: #FF9999;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+/* User Navigation */
+#nav_list a:hover {
+	color: white;
+}
+
+/* List items in TA Application report */
+#report li {
+	list-style: none;
+	font-size: 24px;
+	color: #FF9999;
+}
+
+#under_construction {
+	color: red;
+	font-size: 12px;
+}
+
+/* User Navigation */
+#user_select li {
+	list-style: none;
+	text-align: center;
+	font-size: 36px;
+	color: #FF9999;
+	padding-bottom: 30px;
+}
+
+/* Keep labels with input */
+label {
+	display: inline-block;
+}
+
+/* User Navigation */
+#user_select a:link, #user_select a:visited {
+	text-decoration: none;
+	color: #FF9999;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+/* User Navigation */
+#user_select a:hover {
+	color: black;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+#application h2 {
+	font-size: 20px;
+
+}
+
+input {
+	font-size: 18px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+/* Address input */
+#address {
+	width: 400px;
+}
+
+/* Apartment number input */
+#apt_no {
+	width: 60px;
+}
+
+/* State input */
+#state {
+	width: 60px;
+}
+
+/* Zip input */
+#zip {
+	width: 120px;
+}
+
+/* Other employ hours */
+#other_hours {
+	width: 60px;
+}
+
+#extra_info {
+	font-size: 14px;
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+#construction {
+	font-size: 14px;
+	color: red;
+}
+
+form {
+	font-size: 18px;
+}
+
+p {
+	padding: 5px;
+	margin: 0px;
+}
+
+h4 {
+	font-size: 36px;
+	color: black;
+	margin: 5px;
+}
+
+/* Green input box for valid input */
+input.valid_input {
+    background:hsl(120, 50%, 90%);
+    border-color:hsl(120, 50%, 50%);
+}
+
+/* Red input box for invalid input */
+input.invalid_input {
+    border-color:hsl(0, 50%, 50%);
+    background:hsl(0, 50%, 90%);
+}
+
+/* White input box for an empty input */
+input.empty {
+	border-color:hsl(145, 100%, 0%, 1);
+    background:hsl(360, 100%, 100%, 1);
+}
+
+h3.ta_info {
+		color: #FF9999;
+}

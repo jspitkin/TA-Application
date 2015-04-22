@@ -1,0 +1,126 @@
+/* By: Jake Pitkin on January 25, 2015 */
+/* The style sheet for the instructor */
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%; 
+
+	background-image: url("../../images/grey_background.png");
+    background-color: #FFFFFF;
+
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+}
+
+/* Title */
+#header {
+	font-size: 36px;
+	color: #484848;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-left: 15px;	
+	margin-bottom: 0px;
+}
+
+/* Navigation bar */
+#nav {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	background-color: #383838;
+	margin: 0px;
+}
+
+/* Content */
+#content {
+	margin-top: 20px;
+	font-size: 36px;
+	text-align: center;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: white;
+	border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Content */
+#courses {
+	margin-top: 20px;
+	font-size: 36px;
+	text-align: center;
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: white;
+	border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-size: 24px;
+	color: #FF9999;
+	padding: 5px;
+}
+
+
+/* Links for user nav */
+#nav_list li {
+	display: inline;
+	list-style: none;
+	text-align: center;
+	font-size: 24px;
+	color: #FF9999;
+}
+
+/* User Navigation */
+#nav_list a:link, #nav_list a:visited {
+	text-decoration: none;
+	color: #FF9999;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+/* User Navigation */
+#nav_list a:hover {
+	color: white;
+}
+
+#construction {
+	font-size: 14px;
+	color: red;
+}
+
+h2 {
+	margin: 10px;
+}
+
+h3 {
+	font-size: 24px;
+	margin: 5px;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 5px;
+}
+
+p {
+	padding: 5px;
+	margin: 0px;
+}
+
